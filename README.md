@@ -31,3 +31,38 @@ coppelia_vision_control_ws/
 │   └── robot_controller.py             # Control manual puro por ZMQ (modo test)
 ├── launch/
 │   └── coppelia_vision_launch.py       # Lanza todos los nodos ROS 2 necesarios
+
+## 🎯 Objetivos del proyecto
+
+- ✅ Controlar un robot Pioneer P3DX en simulación 3D.
+- ✅ Ejecutar trayectorias predefinidas: círculo, zigzag, cuadrado.
+- ✅ Visualizar el entorno mediante un sensor de cámara virtual.
+- ✅ Validar cálculos de cinemática inversa diferencial.
+- ✅ Simular comunicación realista entre ROS 2 y CoppeliaSim con ZMQ.
+
+---
+
+## 🧪 Simulación realizada
+
+- **Robot simulado:** Pioneer P3DX
+- **Sensado visual:** Sensor de visión vinculado a un nodo ROS 2
+- **Trayectorias implementadas:**
+  - `circle`: Gira en una trayectoria circular cerrada.
+
+
+---
+
+## 🚀 Instrucciones de uso
+
+### 1. Lanzar CoppeliaSim
+
+- Abre `PRUEBA1.ttt` en CoppeliaSim
+- Presiona el botón ▶️ para iniciar la simulación
+
+### 2. Construir el workspace
+
+```bash
+cd ~/coppelia_vision_control_ws
+colcon build
+source install/setup.bash
+
