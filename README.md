@@ -50,9 +50,8 @@ coppelia_vision_control_ws/
 - **Robot simulado:** Pioneer P3DX
 - **Sensado visual:** Sensor de visión vinculado a un nodo ROS 2
 - **Trayectorias implementadas:**
-  - `circle`: Gira en una trayectoria circular cerrada.
-  - `zigzag`: Cambios de dirección en línea recta simulando un patrón ondulado.
-  - `square`: Movimiento en cuatro lados rectos con giros de 90°.
+  - `circle`: Gira en una trayectoria circular.
+
 
 ---
 
