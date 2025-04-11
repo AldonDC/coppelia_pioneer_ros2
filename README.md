@@ -32,6 +32,7 @@ coppelia_vision_control_ws/
 ├── launch/
 │   └── coppelia_vision_launch.py       # Lanza todos los nodos ROS 2 necesarios
 
+
 ---
 
 ## 🎯 Objetivos del proyecto
@@ -42,7 +43,6 @@ coppelia_vision_control_ws/
 - ✅ Validar cálculos de cinemática inversa diferencial.
 - ✅ Simular comunicación realista entre ROS 2 y CoppeliaSim con ZMQ.
 
----
 
 ## 🧪 Simulación realizada
 
