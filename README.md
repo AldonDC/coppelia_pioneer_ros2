@@ -32,6 +32,8 @@ coppelia_vision_control_ws/
 ├── launch/
 │   └── coppelia_vision_launch.py       # Lanza todos los nodos ROS 2 necesarios
 
+---
+
 ## 🎯 Objetivos del proyecto
 
 - ✅ Controlar un robot Pioneer P3DX en simulación 3D.
