@@ -50,8 +50,9 @@ coppelia_vision_control_ws/
 - **Robot simulado:** Pioneer P3DX
 - **Sensado visual:** Sensor de visión vinculado a un nodo ROS 2
 - **Trayectorias implementadas:**
-  - `circle`: Gira en una trayectoria circular.
-
+  - `circle`: Gira en una trayectoria circular cerrada.
+  - `zigzag`: Cambios de dirección en línea recta simulando un patrón ondulado.
+  - `square`: Movimiento en cuatro lados rectos con giros de 90°.
 
 ---
 
@@ -87,6 +88,26 @@ ros2 run rqt_image_view rqt_image_view
 ```
 
 Selecciona el topic `/camera_image` en el menú desplegable de la interfaz.
+
+---
+
+## 🎥 Video demostrativo
+
+> 💡 A continuación se muestra una breve demostración del robot en movimiento siguiendo una trayectoria circular en CoppeliaSim:
+
+[![Demo Video](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+
+> 🔁 Sustituye `VIDEO_ID_HERE` por el ID del video real.
+
+---
+
+## 📸 Captura de la cámara simulada
+
+> Imagen desde el sensor de visión en tiempo real del robot:
+
+![Vista desde cámara](media/camera_view_example.png)
+
+> Asegúrate de guardar tu imagen en `media/camera_view_example.png` o cambia la ruta.
 
 ---
 
