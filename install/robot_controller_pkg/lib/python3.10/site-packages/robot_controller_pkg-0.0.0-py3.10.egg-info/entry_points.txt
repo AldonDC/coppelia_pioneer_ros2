@@ -1,0 +1,6 @@
+[console_scripts]
+circle_controller = robot_controller_pkg.circle_controller:main
+node_circle_controller = robot_controller_pkg.node_circle_controller:main
+node_robot_controller = robot_controller_pkg.node_robot_controller:main
+node_trajectory_controller = robot_controller_pkg.node_trajectory_controller:main
+
