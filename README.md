@@ -12,7 +12,7 @@ Este proyecto integra un entorno completo de simulación y control para un robot
 - 🤖 ROS 2 Humble
 - 🐍 Python 3.10+
 - 🔌 ZMQ Remote API
-- 📦 geometry_msgs/Twist
+- 📦 `geometry_msgs/Twist`
 - 🧩 Visual Studio Code (extensiones de Python y ROS)
 
 ---
@@ -43,6 +43,7 @@ coppelia_vision_control_ws/
 - ✅ Validar cálculos de cinemática inversa diferencial.
 - ✅ Simular comunicación realista entre ROS 2 y CoppeliaSim con ZMQ.
 
+---
 
 ## 🧪 Simulación realizada
 
@@ -50,7 +51,8 @@ coppelia_vision_control_ws/
 - **Sensado visual:** Sensor de visión vinculado a un nodo ROS 2
 - **Trayectorias implementadas:**
   - `circle`: Gira en una trayectoria circular cerrada.
-
+  - `zigzag`: Cambios de dirección en línea recta simulando un patrón ondulado.
+  - `square`: Movimiento en cuatro lados rectos con giros de 90°.
 
 ---
 
@@ -67,4 +69,5 @@ coppelia_vision_control_ws/
 cd ~/coppelia_vision_control_ws
 colcon build
 source install/setup.bash
+
 
