@@ -12,7 +12,7 @@ Este proyecto integra un entorno completo de simulación y control para un robot
 - 🤖 ROS 2 Humble
 - 🐍 Python 3.10+
 - 🔌 ZMQ Remote API
-- 📦 `geometry_msgs/Twist`
+- 📦 geometry_msgs/Twist
 - 🧩 Visual Studio Code (extensiones de Python y ROS)
 
 ---
@@ -31,7 +31,7 @@ coppelia_vision_control_ws/
 │   └── robot_controller.py             # Control manual puro por ZMQ (modo test)
 ├── launch/
 │   └── coppelia_vision_launch.py       # Lanza todos los nodos ROS 2 necesarios
-
+```
 
 ---
 
@@ -69,5 +69,36 @@ coppelia_vision_control_ws/
 cd ~/coppelia_vision_control_ws
 colcon build
 source install/setup.bash
+```
 
+### 3. Ejecutar la simulación
 
+```bash
+ros2 launch camera_streamer_pkg coppelia_vision_launch.py
+```
+
+---
+
+## 🖼 Visualización de la cámara
+
+Para ver la imagen publicada por el sensor de visión:
+
+```bash
+ros2 run rqt_image_view rqt_image_view
+```
+
+Selecciona el topic `/camera_image` en el menú desplegable de la interfaz.
+
+---
+
+## 👨‍💻 Autor
+
+**Alfonso Solís Díaz**  
+Estudiante de Ingeniería en Robótica y Sistemas Digitales  
+Tecnológico de Monterrey
+
+---
+
+## 📜 Licencia
+
+Este proyecto se distribuye bajo la licencia [MIT](https://opensource.org/licenses/MIT).
