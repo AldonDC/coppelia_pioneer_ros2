@@ -27,7 +27,7 @@ coppelia_vision_control_ws/
 │   └── image_streamer.py               # Conecta la visión desde ZMQ a ROS 2
 ├── robot_controller_pkg/
 │   ├── node_robot_controller.py        # Calcula velocidades de ruedas a partir de /cmd_vel
-│   ├── node_trajectory_controller.py   # Genera trayectorias (círculo, zigzag, cuadrado)
+│   ├── node_circle_controller.py   # Genera trayectorias (círculo, zigzag, cuadrado)
 │   └── robot_controller.py             # Control manual puro por ZMQ (modo test)
 ├── launch/
 │   └── coppelia_vision_launch.py       # Lanza todos los nodos ROS 2 necesarios
