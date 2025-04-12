@@ -103,7 +103,8 @@ Selecciona el topic `/camera_image` en el menú desplegable de la interfaz.
 
 > Imagen desde el sensor de visión en tiempo real del robot:
 
-![Vista desde cámara](media/camera_view_example.png)
+![Vista desde cámara](![image](https://github.com/user-attachments/assets/a5ef6ca4-9dbe-425e-9a94-2864dcdc5bb8)
+)
 
 > Asegúrate de guardar tu imagen en `media/camera_view_example.png` o cambia la ruta.
 
