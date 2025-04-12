@@ -91,11 +91,9 @@ Selecciona el topic `/camera_image` en el menú desplegable de la interfaz.
 
 ## 🎥 Video demostrativo
 
-> 💡 A continuación se muestra una breve demostración del robot **Pioneer P3DX** siguiendo una trayectoria circular en **CoppeliaSim** utilizando ROS 2 y control cinemático.
+> 💡 A continuación se muestra una breve demostración del robot Pioneer P3DX ejecutando una trayectoria circular en CoppeliaSim:
 
-<p align="center">
-  <img src="media/SIMULACION_CERON1.gif" alt="Simulación Pioneer P3DX en ROS2+CoppeliaSim" width="75%">
-</p>
+🎬 [Haz clic aquí para ver el video en Google Drive](https://drive.google.com/file/d/1VtSMjxuGOopICuwKgCcZ31Zj7OJdips0/view?usp=sharing)
 
 
 ---
