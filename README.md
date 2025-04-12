@@ -101,12 +101,11 @@ Selecciona el topic `/camera_image` en el menú desplegable de la interfaz.
 
 ## 📸 Captura de la cámara simulada
 
-> Imagen desde el sensor de visión en tiempo real del robot:
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a5ef6ca4-9dbe-425e-9a94-2864dcdc5bb8" alt="Vista desde cámara del Pioneer P3DX" width="600"/>
+  <p><i>Imagen real desde el sensor de visión en CoppeliaSim usando ROS 2 🧠</i></p>
+</div>
 
-![Vista desde cámara](![image](https://github.com/user-attachments/assets/a5ef6ca4-9dbe-425e-9a94-2864dcdc5bb8)
-)
-
-> Asegúrate de guardar tu imagen en `media/camera_view_example.png` o cambia la ruta.
 
 ---
 
