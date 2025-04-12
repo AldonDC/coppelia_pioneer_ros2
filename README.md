@@ -101,6 +101,7 @@ Selecciona el topic `/camera_image` en el menú desplegable de la interfaz.
 </video>
 
 
+
 ---
 
 ## 📸 Captura de la cámara simulada
