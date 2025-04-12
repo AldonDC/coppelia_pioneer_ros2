@@ -91,10 +91,15 @@ Selecciona el topic `/camera_image` en el menú desplegable de la interfaz.
 
 ## 🎥 Video demostrativo
 
-> 💡 A continuación se muestra una breve demostración del robot Pioneer P3DX ejecutando una trayectoria circular en CoppeliaSim:
+> 💡 A continuación se muestra una breve demostración del robot Pioneer P3DX siguiendo una trayectoria circular en CoppeliaSim:
 
-🎬 [Haz clic aquí para ver el video en Google Drive](https://drive.google.com/file/d/1VtSMjxuGOopICuwKgCcZ31Zj7OJdips0/view?usp=sharing)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=d1D_xABrXBw&feature=youtu.be" target="_blank">
+    <img src="https://img.youtube.com/vi/d1D_xABrXBw/hqdefault.jpg" alt="Simulación en YouTube" width="600">
+  </a>
+</p>
 
+🔗 [Ver video completo en YouTube](https://www.youtube.com/watch?v=d1D_xABrXBw&feature=youtu.be)
 
 ---
 
