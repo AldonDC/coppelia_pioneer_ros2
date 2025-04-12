@@ -93,9 +93,13 @@ Selecciona el topic `/camera_image` en el menú desplegable de la interfaz.
 
 > 💡 A continuación se muestra una breve demostración del robot en movimiento siguiendo una trayectoria circular en CoppeliaSim:
 
-[![Demo Video](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+🔽 Puedes reproducir el video directamente aquí (si tu visor lo permite):
 
-> 🔁 Sustituye `VIDEO_ID_HERE` por el ID del video real.
+<video controls width="100%">
+  <source src="media/SIMULACION_CERON1.mp4" type="video/mp4">
+  Tu navegador no soporta la visualización de video embebido.
+</video>
+
 
 ---
 
